@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Regression Test" verbose="1">
+    <test name="Sign In Test">
+        <classes>
+            <class name="com.honganh.testcases.SignInTest"/>
+        </classes>
+    </test>
+</suite>
