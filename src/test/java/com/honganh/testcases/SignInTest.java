@@ -38,7 +38,7 @@ public class SignInTest extends BaseTest {
     public void testLoginFailWithEmailIncorrectFormat() {
         signInPage = new SignInPage();
         signInPage.gotoSignInPage();
-        signInPage.signIn("test.gmail.com", "123456");
+        signInPage.signIn("test.gmail.com", "Luu9i20nm@nj");
         signInPage.verifySignInFailFormat();
     }
 
